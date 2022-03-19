@@ -47,13 +47,13 @@ public abstract class EntityRendererMixin<T extends Entity> {
     private void renderCat(SpiderEntity entity, Text text, MatrixStack matrices) {
         MinecraftClient minecraft = MinecraftClient.getInstance();
         ArachnophobiaModeConfig config = ClothConfigManager.INSTANCE.getConfig();
-        if(config == null) {
+        if (config == null) {
             return;
         }
-        if(minecraft.player == null) {
+        if (minecraft.player == null) {
             return;
         }
-        if(!minecraft.player.canSee(entity) && !minecraft.player.isSpectator()) {
+        if (!minecraft.player.canSee(entity) && !minecraft.player.isSpectator()) {
             return;
         }
         float f = entity.getHeight() + 0.5F;
@@ -63,8 +63,7 @@ public abstract class EntityRendererMixin<T extends Entity> {
         matrices.scale(-0.025F, -0.025F, 0.025F);
         TextRenderer textRenderer = this.getTextRenderer();
         float h = (float)(-textRenderer.getWidth(text) / 2);
-        int catImage = 1;
-
+        int catImage = config.getCatImage();
         RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderTexture(0, new Identifier("arachnophobiamode", "cat" + catImage + ".png"));
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
