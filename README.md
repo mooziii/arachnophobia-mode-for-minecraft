@@ -1,4 +1,4 @@
-# anarchophobia-mode-for-minecraft
+# arachophobia-mode-for-minecraft
 
 A Joke Mod that adds the Arachnophobia Mode from Satisfactory to minecraft
 
