@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.obsilabor.arachnophobiamodeforminecraft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "EntityRendererMixin",
+    "SpiderEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

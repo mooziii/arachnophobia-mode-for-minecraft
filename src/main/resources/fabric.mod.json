@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "arachnophobiamode",
+  "version": "${version}",
+  "name": "Arachnophobia Mode For Minecraft",
+  "description": "Joke Mod that adds the Arachnophobia Mode from Satisfactory to minecraft",
+  "authors": [
+    "mooziii"
+  ],
+  "contact": {
+    "sources": "https://github.com/mooziii/arachnophobia-mode-for-minecraft"
+  },
+  "license": "MIT",
+  "icon": "assets/arachnophobiamode/cat1.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.obsilabor.arachnophobiamodeforminecraft.ArachnophobiaMode"
+    ],
+    "modmenu": [
+      "me.obsilabor.arachnophobiamodeforminecraft.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "arachnophobiamode.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": ">=1.18.1",
+    "cloth-config": ">=6.2.57"
+  },
+  "recommends": {
+    "modmenu": ">=3.1.0"
+  }
+}

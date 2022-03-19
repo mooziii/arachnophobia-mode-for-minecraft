@@ -1,0 +1,10 @@
+{
+  "title.arachnophobiamode.config": "Arachnophobia Mode Config",
+  "category.arachnophobiamode.general": "General",
+  "option.arachnophobiamode.catimage": "Cat Image",
+  "option.arachnophobiamode.catimage.tooltip": "There are 3 cat images to choose from.",
+  "option.arachnophobiamode.enabled": "Arachnophobia Mode Enabled",
+  "option.arachnophobiamode.enabled.tooltip": "If set to yes, spiders will get replaced by equally terrifying cats.",
+  "option.arachnophobiamode.replacesounds": "Replace sounds",
+  "option.arachnophobiamode.replacesounds.tooltip": "If set to yes, spider sounds will get replaced by cute cat sounds."
+}

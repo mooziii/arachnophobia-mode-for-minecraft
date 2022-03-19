@@ -1,0 +1,10 @@
+{
+  "title.arachnophobiamode.config": "Arachnophobie Modus Config",
+  "category.arachnophobiamode.general": "Generell",
+  "option.arachnophobiamode.catimage": "Katzen Bild",
+  "option.arachnophobiamode.catimage.tooltip": "Es gibt 3 Katzen Bilder welche du dir aussuchen kannst.",
+  "option.arachnophobiamode.enabled": "Arachnophobie Modus Aktiv",
+  "option.arachnophobiamode.enabled.tooltip": "Falls ja, werden alle Spinnen durch gleichermaßen schrecklicke Katzen ausgetauscht.",
+  "option.arachnophobiamode.replacesounds": "Geräusche ersetzen",
+  "option.arachnophobiamode.replacesounds.tooltip": "Falls ja, werden alle Spinnen Geräusche durch süße Katzen Geräusche ersetzt."
+}
