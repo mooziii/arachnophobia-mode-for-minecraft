@@ -1,5 +1,6 @@
 package me.obsilabor.arachnophobiamodeforminecraft
 
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import net.fabricmc.api.ClientModInitializer
 import net.minecraft.client.MinecraftClient
@@ -11,6 +12,7 @@ class ArachnophobiaMode : ClientModInitializer {
     }
 }
 
+@OptIn(ExperimentalSerializationApi::class)
 val json = Json {
     prettyPrint = true
     encodeDefaults = true
