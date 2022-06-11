@@ -1,12 +1,12 @@
 plugins {
-    kotlin("jvm") version "1.6.10"
-    kotlin("plugin.serialization") version "1.6.10"
+    kotlin("jvm") version "1.7.0"
+    kotlin("plugin.serialization") version "1.7.0"
     id("fabric-loom") version "0.12-SNAPSHOT"
     java
 }
 
 group = "me.obsilabor"
-version = "1.0.1"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -16,13 +16,13 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
-    minecraft("com.mojang:minecraft:1.18.2")
-    mappings("net.fabricmc:yarn:1.18.2+build.2")
-    modImplementation("net.fabricmc:fabric-loader:0.13.3")
-    modImplementation("net.fabricmc:fabric-language-kotlin:1.7.1+kotlin.1.6.10")
-    api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
-    modApi("com.terraformersmc:modmenu:3.1.0")
-    modApi("me.shedaniel.cloth:cloth-config-fabric:6.2.57") {
+    minecraft("com.mojang:minecraft:1.19")
+    mappings("net.fabricmc:yarn:1.19+build.2")
+    modImplementation("net.fabricmc:fabric-loader:0.14.7")
+    modImplementation("net.fabricmc:fabric-language-kotlin:1.8.0+kotlin.1.7.0")
+    api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
+    modApi("com.terraformersmc:modmenu:4.0.0")
+    modApi("me.shedaniel.cloth:cloth-config-fabric:7.0.72") {
         exclude("net.fabricmc.fabric-api")
     }
 
