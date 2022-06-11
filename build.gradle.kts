@@ -56,6 +56,7 @@ modrinth {
     versionType.set("release")
     gameVersions.addAll(listOf(mcVersion))
     loaders.add("fabric")
+    loaders.add("quilt")
     dependencies {
         required.project("Ha28R6CL")
         optional.project("mOgUt4GM")
