@@ -25,11 +25,10 @@
     "arachnophobiamode.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.13.3",
-    "minecraft": ">=1.18.1",
-    "cloth-config": ">=6.2.57"
+    "minecraft": ">=1.19",
+    "cloth-config": ">=7.0.72"
   },
   "recommends": {
-    "modmenu": ">=3.1.0"
+    "modmenu": ">=4.0.0"
   }
 }
