@@ -26,9 +26,9 @@
   ],
   "depends": {
     "minecraft": ">=${mcVersion}",
-    "cloth-config": ">=7.0.72"
+    "cloth-config": ">=7.0.73"
   },
   "recommends": {
-    "modmenu": ">=4.0.0"
+    "modmenu": ">=4.0.5"
   }
 }
